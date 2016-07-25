@@ -1,7 +1,7 @@
 #!/bin/bash
 mailform=/tmp/1form.txt
 myemail=[your-email-here-without-brackets]
-ip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
+ip="$(curl ipecho.net/plain)"
 #The email magic
 
 echo "To: $myemail" > $mailform
