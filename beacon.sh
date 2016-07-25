@@ -1,4 +1,6 @@
 #!/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
 mailform=/tmp/1form.txt
 myemail=[your-email-here-without-brackets]
 ip="$(curl ipecho.net/plain)"
